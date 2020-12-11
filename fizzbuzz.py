@@ -9,4 +9,18 @@ for fizzbuzz in range(51):
         print("buzz")
         continue
     print(fizzbuzz)
-	
+
+
+class ExampleClass:
+
+    def __init__(self, example):
+        self.example = example
+
+
+    def badMethodName():
+        return example
+
+
+exampel_class = ExampleClass('Heelo')
+
+print(exampel_class.badMethodName())
